@@ -1,1 +1,12 @@
-show databases;
+-- create database photoshop;
+-- show databases;
+-- use photoshop;
+-- select database();
+-- create table cameras(c_name varchar(200),Qty int,price int);
+-- show tables;
+-- desc cameras;
+-- insert into cameras values("canon",10,20000);
+-- select * from cameras;
+-- select c_name from cameras;
+-- insert into cameras values("sony",15,30000),("nexon",5,35000);
+select * from cameras where price > 20000;
