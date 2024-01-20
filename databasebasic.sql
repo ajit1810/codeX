@@ -1,2 +1,1 @@
-create database photoshot;
--- show databases;
+show databases;
