@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Positions</title>
+</head>
+<style>
+    .container{
+        position: relative;
+        background-color:black ;
+        border-radius: 20px;
+        z-index: -1;
+        
+    }
+    .Box{
+        height: 100px;
+        width: 100px;
+        margin: 10px 10px;
+        display: inline-block;
+        border-radius: 10px;
+        text-align: center;
+    
+    }
+    #Box1{
+        background-color: rgb(146, 235, 101);
+    }
+    #Box2{
+        background-color: hotpink;
+        position: absolute;
+        top: 60px;
+        left: 70px;
+        z-index: -1;
+    }
+    #Box3{
+        background-color: darkmagenta;
+    }
+</style>
+<body>
+    <h1>container</h1>
+    <div class="container">
+        <div class="Box" id="Box1">Box1</div>
+        <div class="Box" id="Box2">Box2</div>
+        <div class="Box" id="Box3">Box3</div>
+    </div>
+  </body>
+</html>
