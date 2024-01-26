@@ -1,4 +1,6 @@
+
 show databases;
+create database college;
 use college;
 select database();
 -- NOT NULL
