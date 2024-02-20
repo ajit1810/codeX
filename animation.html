@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animation</title>
+
+    <style>
+
+        .container{
+            height: 500px;
+            background-color: cornflowerblue;
+            padding-top: 40px;
+            padding-left: 40px; 
+        }
+
+        .card{
+            height: 200px;
+            width: 200px;
+            border: 10px solid white;
+            background-color: black;
+            animation: ajit;
+            animation-delay: 2s;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+        }
+
+        @keyframes ajit{
+            from{
+                width: 200px;
+                background-color: chartreuse;
+            }to{
+                width: 800px;
+                background-color: deeppink;
+            }
+        }
+
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+
+        </div>
+    </div>
+</body>
+</html>

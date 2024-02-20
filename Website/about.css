@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.header{
+    height : 70vh;
+    /* border: 5px solid black; */
+    background-image: linear-gradient(rgba(95, 94, 94, 0.9),rgba(97, 95, 95, 0.658)),url("./images/offers.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;   
+}
+.nav{
+    display: flex;
+    height: 100px;
+    /* background-color: aqua; */
+    justify-content: end;
+}
+
+.nav ul{
+    display: flex;
+    margin-top: 80px;
+    margin-right: 50px;
+    font-size: larger;
+    list-style: none;
+
+}
+
+.nav li a{
+    font-size: larger;
+    margin-right: 80px;
+    text-decoration: none;
+    color: white;
+}
+
+.nav li a:hover {
+        color: cyan;
+
+}
+
+.main{
+    height: 50vh;
+    /* border: 8px solid greenyellow; */
+    text-align: center;
+}
+
+.main h1{
+    font-size: 35px;
+     margin-left: 500px;
+}
+
+
+.aboutus{
+    text-align: left;
+    margin-left: 180px;
+    margin-top: 50px;
+    margin-right: 200px;    
+}
+
+.aboutus h3{
+    font-size: x-large;
+}
+
+.aboutus p{
+    font-size: large;
+}
+
+button{
+    height: 40px;
+    width: 200px;
+    margin-top: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    
+}
+
+ button:hover{
+    background-color: rgb(108, 102, 102);
+}
+
+.about{
+    display: flex;
+}
+
+.img img {
+    height: 160px;
+    width: 350px;
+    margin-top:90px;
+    margin-right: 200px;
+   
+}
+
+ 
+

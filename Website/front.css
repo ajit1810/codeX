@@ -1,0 +1,171 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.header{
+    height:100vh;
+    /* background-color: chocolate; */
+    /* border: 5px solid black; */
+    background-image: linear-gradient(rgba(128, 128, 128, 0.215),rgba(128, 128, 128, 0.279)),url("./images/frontbgimg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;   
+}
+.nav{
+    display: flex;
+    height: 100px;
+    /* background-color: aqua; */
+    justify-content: end;
+}
+
+.nav ul{
+    display: flex;
+    margin-top: 80px;
+    margin-right: 50px;
+    font-size: larger;
+    list-style: none;
+
+}
+
+.nav li a{
+    font-size: larger;
+    margin-right: 80px;
+    text-decoration: none;
+    color: white;
+}
+
+.nav li a:hover {
+        color: cyan;
+
+}
+
+.heading{
+    text-align: center;
+    color: white;
+}
+
+.heading h1{
+    font-size: 50px;
+    margin-top: 200px;
+    margin-bottom: 10px;
+}
+
+.heading p{
+    font-size: x-large;
+  
+}
+
+button{
+    height: 50px;
+    width: 250px;
+    margin-top: 20px;
+    font-size: larger;
+    border-radius: 25px;
+    cursor: pointer;
+    transition-delay: 10ms;
+    transition-duration: 1s;
+    
+}
+ .btn:hover{
+    background-color: rgb(197, 184, 184);
+    transform: scale(1.2); 
+    transform: translateY(100px);
+ }
+
+.courses{
+    height: 80vh;
+    /* border: 5px solid red; */
+   
+    /* background-image: linear-gradient(rgba(128, 128, 128, 0.532),rgba(128, 128, 128, 0.5)),url("./images/offers.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; */
+}
+
+.offer{
+    
+    text-align: center;
+}
+
+.offer h1{
+    margin-top: 70px;
+    font-size: 50px;
+}
+
+.offer p{
+    margin-top: 30px;
+    font-size: large;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.mainbox{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+
+.card {
+    height:200px;
+    width: 350px;
+    background-color: rgb(222, 206, 195);
+    text-align: center;
+    border-radius: 30px;
+}
+
+.card h2{
+    margin-top: 20px;
+}
+
+.card p{
+    margin: 20px;
+}
+.card:hover{
+    cursor: pointer;
+    background-color: rgb(211, 244, 245);
+}
+
+.students{
+    height: 60vh;
+    /* border: 5px solid black; */
+    text-align: center;
+}
+.students h2 {
+    margin-top: 30px;
+    font-size: 40px;
+}
+
+.students p{
+    margin-top: 30px;
+    font-size: large;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.studentsmain{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.students-card{
+    height:200px;
+    width: 450px;
+    background-color: rgb(222, 206, 195);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.students-card p{
+    margin-top: 55px;
+}
+
+.studentsmain :hover{
+    cursor: pointer;
+    background-color: rgb(211, 244, 245);
+}
+
+
+
+
+
