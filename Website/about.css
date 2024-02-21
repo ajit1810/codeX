@@ -55,7 +55,7 @@
     text-align: left;
     margin-left: 180px;
     margin-top: 50px;
-    margin-right: 200px;    
+    margin-right: 110px;  
 }
 
 .aboutus h3{
@@ -63,15 +63,16 @@
 }
 
 .aboutus p{
-    font-size: large;
+    font-size: 15px;
 }
 
 button{
     height: 40px;
-    width: 200px;
+    width: 180px;
     margin-top: 20px;
     border-radius: 20px;
     cursor: pointer;
+    margin-bottom: 40px;
     
 }
 
@@ -84,10 +85,10 @@ button{
 }
 
 .img img {
-    height: 160px;
-    width: 350px;
+    height: 140px;
+    width: 300px;
     margin-top:90px;
-    margin-right: 200px;
+    margin-right: 150px;
    
 }
 

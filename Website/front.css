@@ -47,12 +47,12 @@
 
 .heading h1{
     font-size: 50px;
-    margin-top: 200px;
+    margin-top: 120px;
     margin-bottom: 10px;
 }
 
 .heading p{
-    font-size: x-large;
+    font-size: large;
   
 }
 
@@ -60,7 +60,7 @@ button{
     height: 50px;
     width: 250px;
     margin-top: 20px;
-    font-size: larger;
+    font-size: large;
     border-radius: 25px;
     cursor: pointer;
     transition-delay: 10ms;
@@ -68,7 +68,7 @@ button{
     
 }
  .btn:hover{
-    background-color: rgb(197, 184, 184);
+    background-color: rgb(230, 31, 31);
     transform: scale(1.2); 
     transform: translateY(100px);
  }
@@ -95,7 +95,7 @@ button{
 
 .offer p{
     margin-top: 30px;
-    font-size: large;
+    font-size: medium;
     margin-left: 80px;
     margin-right: 80px;
 }
@@ -103,7 +103,7 @@ button{
 .mainbox{
     display: flex;
     justify-content: space-evenly;
-    margin-top: 100px;
+    margin-top: 60px;
 }
 
 .card {
@@ -120,6 +120,7 @@ button{
 
 .card p{
     margin: 20px;
+    font-size: 14px;
 }
 .card:hover{
     cursor: pointer;
@@ -138,7 +139,7 @@ button{
 
 .students p{
     margin-top: 30px;
-    font-size: large;
+    font-size: 16px;
     margin-left: 80px;
     margin-right: 80px;
 }
@@ -146,23 +147,45 @@ button{
     display: flex;
     justify-content: space-evenly;
     margin-top: 50px;
+
 }
 
 .students-card{
-    height:200px;
-    width: 450px;
+    height:160px;
+    width: 420px;
     background-color: rgb(222, 206, 195);
     border-radius: 10px;
     text-align: center;
 }
 
 .students-card p{
-    margin-top: 55px;
+    margin-top: 40px;
+    font-size: 14px;
 }
 
 .studentsmain :hover{
     cursor: pointer;
     background-color: rgb(211, 244, 245);
+}
+
+.footer{
+    height: 30vh;
+    /* border: 10px solid red; */
+    text-align: center;
+    background-color: rgb(164, 220, 201);
+    margin-top: 40px;
+}
+
+.footerbox{
+   padding-top: 30px;
+}
+
+.footerbox p{
+    font-size: 15px;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 20px;
 }
 
 

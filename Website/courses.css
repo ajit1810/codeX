@@ -1,0 +1,243 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: linear-gradient(rgba(109, 103, 103, 0.473),rgba(134, 128, 128, 0.372)),url(images/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+.navbar{
+    height: 8vh;
+    /* border: 4px solid red; */
+    background-color: cornflowerblue;
+    position: sticky;
+    top: 0px;
+}
+
+.nav h1{
+    padding-top: 10px;
+    font-size: 25px;
+    text-align: center;   
+}
+
+/* languages */
+.languages {
+    height: 35vh;
+    /* border: 2px solid red; */
+}
+
+.languages h2 {
+    font-size: x-large;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.languages h2:hover{
+    color: cyan;
+}
+
+.lang-img img{
+    height: 120px;
+    width: 120px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px; 
+    margin-top: 20px;  
+}
+
+.lang-title{
+    display: flex;
+    font-size: x-large;
+    margin-top: 30px;
+    /* justify-content:space-evenly */
+}
+
+.lang-title #java:hover{
+    color: white;
+}
+
+.lang-title #dart:hover{
+    color: white;
+}
+
+.lang-title #python:hover{
+    color: white;
+}
+
+.lang-title #javascript:hover{
+    color: white;
+}
+
+
+#java{
+    margin-left: 250px;
+}
+
+#dart{
+    margin-left: 295px;
+}
+
+#python{
+    margin-left: 290px;
+}
+
+#javascript{
+    margin-left: 270px;
+}
+
+.lang-img img:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+/* Frameworks */
+.framework{
+    height: 35vh;
+    /* border: 3px solid violet; */
+}
+.framework h2{
+    font-size: x-large;
+    margin-top: 30px;
+    margin-left: 30px; 
+}
+
+.framework h2:hover{
+    color: cyan;
+}
+
+.frame-img img{
+    height: 120px;
+    width: 120px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px; 
+    margin-top: 20px;  
+}
+
+.frame-title {
+    display: flex; 
+    font-size: x-large;
+    margin-top: 30px;
+    /* justify-content: space-evenly; */
+}
+
+.frame-title #flutter:hover{
+    color: white;
+}
+
+.frame-title #react:hover{
+    color: white;
+}
+
+.frame-title #spring:hover{
+    color: white;
+}
+
+.frame-title #hibernate:hover{
+    color: white;
+}
+
+#flutter{
+    margin-left: 250px;
+}
+
+#react{
+    margin-left: 280px;
+}
+
+#spring{
+    margin-left: 285px;
+}
+
+#hibernate{
+    margin-left: 270px;
+}
+
+.frame-img img:hover{
+    cursor: pointer;
+    transition-duration: 2s;
+    transform: rotate(360deg);
+}
+
+/* Database */
+
+.database{
+    height: 35vh;
+    /* border: 2px solid red; */
+}
+
+.database h2{
+    font-size: x-large;
+    margin-top: 30px;
+    margin-left: 30px; 
+}
+
+.database h2:hover{
+    color: cyan;
+}
+
+.database-img img{
+    height: 120px;
+    width: 120px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px; 
+    margin-top: 20px;  
+}
+
+.database-img img:hover{
+    cursor: pointer;
+    animation: ajit;
+    animation-duration: 2s;
+    
+}
+
+@keyframes ajit {
+    from{
+        height: 120px;
+        width: 120px;
+    }to{
+        height: 150px;
+        width: 150px;
+    }
+}
+
+
+.database-title{
+    display: flex;
+    font-size:x-large;
+    margin-top: 30px;
+    /* justify-content: space-evenly; */
+}
+
+.database-title #mysql:hover{
+    color: white;
+}
+
+.database-title #mongodb:hover{
+    color: white;
+}
+
+.database-title #oracle:hover{
+    color: white;
+}
+
+.database-title #mariadb:hover{
+    color: white;
+}
+
+#mysql{
+    margin-left: 240px;
+}
+
+#mongodb{
+    margin-left: 270px;
+}
+
+#oracle{
+    margin-left: 265px;
+}
+
+#mariadb{
+    margin-left: 270px;
+}
