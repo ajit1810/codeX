@@ -18,6 +18,23 @@
     justify-content: end;
 }
 
+.nav-img img{
+    height: 100px;
+    width: 100px;
+    margin-top: 40px;
+    margin-right: 650px;
+}
+
+.nav-img img:hover{
+    transform: scale(1.2);
+}
+
+.nav-img h3{
+    color: white;
+    margin-left: 20px;
+}
+
+
 .nav ul{
     display: flex;
     margin-top: 80px;

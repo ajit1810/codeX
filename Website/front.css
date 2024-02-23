@@ -19,6 +19,26 @@
     justify-content: end;
 }
 
+.nav-img img{
+    height: 100px;
+    width: 100px;
+    margin-top: 40px;
+    margin-right: 650px;
+}
+
+
+
+.nav-img img:hover{
+    transform: scale(1.2);
+}
+
+.nav-img h3{
+    color: white;
+    margin-left: 20px;
+    /* margin-right: 100px; */
+}
+
+
 .nav ul{
     display: flex;
     margin-top: 80px;
@@ -47,7 +67,7 @@
 
 .heading h1{
     font-size: 50px;
-    margin-top: 120px;
+    margin-top: 180px;
     margin-bottom: 10px;
 }
 
@@ -74,22 +94,15 @@ button{
  }
 
 .courses{
-    height: 80vh;
-    /* border: 5px solid red; */
-   
-    /* background-image: linear-gradient(rgba(128, 128, 128, 0.532),rgba(128, 128, 128, 0.5)),url("./images/offers.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center; */
+    height: 70vh;
 }
 
-.offer{
-    
+.offer{    
     text-align: center;
 }
 
 .offer h1{
-    margin-top: 70px;
+    margin-top: 40px;
     font-size: 50px;
 }
 
@@ -127,13 +140,15 @@ button{
     background-color: rgb(211, 244, 245);
 }
 
+/* students */
+
 .students{
-    height: 60vh;
+    height: 50vh;
     /* border: 5px solid black; */
     text-align: center;
 }
 .students h2 {
-    margin-top: 30px;
+    margin-top: 20px;
     font-size: 40px;
 }
 
@@ -177,14 +192,14 @@ button{
 }
 
 .footerbox{
-   padding-top: 30px;
+   padding-top: 50px;
 }
 
 .footerbox p{
     font-size: 15px;
     margin-top: 20px;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 80px;
+    margin-right: 80px;
     margin-bottom: 20px;
 }
 
